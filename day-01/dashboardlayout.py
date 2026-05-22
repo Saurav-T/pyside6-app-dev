@@ -6,19 +6,23 @@ from PySide6.QtWidgets import (
 
 from PySide6.QtCore import Qt
 
+# Initialize App and Window
 app = QApplication([])
 window = QWidget()
 
+# Sidebar Options
 home = QPushButton("Home")
 profile = QPushButton("Profile")
 settings = QPushButton("Settings")
 
+# Sidebar
 sidebar = QVBoxLayout()
 sidebar.addWidget(home)
 sidebar.addWidget(profile)
 sidebar.addWidget(settings)
 sidebar.addStretch()
 
+# Main Content
 content_label = QLabel("Welcome")
 
 main = QHBoxLayout()

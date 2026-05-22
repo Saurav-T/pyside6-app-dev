@@ -21,7 +21,7 @@ splitter.addWidget(content)
 layout = QHBoxLayout()
 layout.addWidget(splitter)
 
-window.setLayout(layout)
+window.setLayout(layout)    
 window.resize(800, 500)
 window.show()
 
