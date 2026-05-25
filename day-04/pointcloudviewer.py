@@ -29,6 +29,7 @@ class MainWindow(QMainWindow):
 
         self.create_point_cloud()
 
+
     def create_point_cloud(self):
         points = vtk.vtkPoints()
 
