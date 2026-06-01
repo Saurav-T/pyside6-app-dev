@@ -24,13 +24,6 @@ I am currently exploring and practicing the following areas:
 - Time series and datetime operations
 - Data transformation techniques
 
-### ⚙️ Application Development Concepts
-- Building logic-based applications in Python
-- Working with APIs
-- Basic backend concepts
-- Structuring projects properly
-- Learning how real-world applications are designed
-
 ---
 
 ## 🎯 Purpose of This Repository
